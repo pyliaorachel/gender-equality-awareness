@@ -1,0 +1,9 @@
+name: gender-equ
+channels:
+  - defaults
+  - anaconda
+dependencies:
+  - numpy
+  - python=3.7
+  - gensim
+  - flask
