@@ -5,10 +5,6 @@ app = Flask(__name__)
 
 from .wordemb import WordEmb
 
-emb_model = WordEmb()
-emb_model.init()
-print('Emb model ready!')
-
 def color_text(text):
     res = ''
     for line in text.split('\n'):
@@ -73,3 +69,7 @@ def sent_score(word):
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
+
+    emb_model = WordEmb()
+    emb_model.init()
+    print('Emb model ready!')
