@@ -1,6 +1,8 @@
 # GenAware
 
-A tool for scoring and visualizing the gender-oriented words and their sentiments.
+![](./img/project.png)
+
+A tool for scoring and visualizing the gender-oriented words and their sentiments in a piece of text.
 
 Helps to raise gender equality awareness. Be aware not to contain these patterns in your text:
 
