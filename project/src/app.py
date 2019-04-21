@@ -1,3 +1,5 @@
+import os
+
 from flask import Flask, render_template, request
 app = Flask(__name__)
 
@@ -70,4 +72,4 @@ def sent_score(word):
     return str(emb_model.sent_score(word))
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=int(os.environ.get('PORT', 5000)))
