@@ -34,3 +34,12 @@ For example, a pre-compiled list of female words are: 'female', 'women', 'woman'
 
 - Gender score range: `[-1, 1]`, negative: male, positive: female
 - Sentiment score range: `[-1, 1]`, negative: negative, positive: positive
+
+## Coloring Mechanism
+
+- Gender
+  - Blue: male, red: female
+  - Background color
+- Sentiment
+  - Green: positive, red: negative
+  - Border color
